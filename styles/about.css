@@ -1,0 +1,78 @@
+.body{
+    background-color: white;
+}
+
+.partie1 {
+    flex-direction: column;
+    font-size: 50px;
+    padding-left: 30px;
+    /* border: 2px solid purple; */
+}
+
+.partie2 {
+    display: flex;
+    justify-content: left;
+    gap: 50px;
+    /* border: 2px solid green; */
+    font-size: 20px;
+    padding-left: 30px;
+    
+}
+
+.pt {
+    color: rgb(134, 41, 221);
+}
+
+.sous2{
+    margin-top: 4px;
+}
+
+.bord {
+    border-left: 6px solid rgb(112, 10, 172);
+    padding-left: 10px;
+    font-size: 25px;
+    margin-top: 0;
+}
+
+.ligne1partie1 {
+
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+
+.nav {
+  
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding-left: 30px;
+  padding-right: 50px;
+  /* border: 2px solid red; */
+    
+}
+
+.nav1 {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+border-radius: 15px;
+/*box-shadow: 0px 15px 40px rgba(0,0,0,0.15);*/
+color: black;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a.active  {
+  color: blueviolet;
+}
+
+.nav a:hover  {
+  color: rgb(108, 89, 126);
+}

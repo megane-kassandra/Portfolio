@@ -1,0 +1,101 @@
+.body {
+  background-color: blueviolet;
+  margin: auto;
+  display: flex;
+  min-height: 100vh; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+.nav {
+  
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 50px;
+  font-size: 25px;
+  /* border: 2px solid red; */
+    
+}
+
+.nav1 {
+  display: flex;
+  margin-left: 80px;
+  margin-top: 10px;
+}
+
+.nav a {
+    text-decoration: none;
+border-radius: 15px;
+/*box-shadow: 0px 15px 40px rgba(0,0,0,0.15);*/
+color: black;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+.nav a.active  {
+  color: blueviolet;
+}
+
+.nav a:hover  {
+  color: rgb(108, 89, 126);
+}
+
+.page {
+  
+  display: flex;
+  justify-content: left;
+  gap: 100px;
+  margin-left: 50px;
+  font-size: 40px;
+  /* border: 2px solid green; */
+  
+}
+
+.titre{
+    margin-left: 50px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.color1 {
+    border-left: 4px solid purple;
+}
+
+.part1 {
+    border-left: 4px solid black;
+    padding-left: 18px;
+    
+}
+
+.part2 {
+   margin-left: 100px;
+   margin-top: 8px;
+}
+
+
+.avantmini {
+    margin-bottom: 10px;
+}
+
+.mini {
+    font-size: 10px;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.color {
+    color: blueviolet;
+}
+
+.cocher {
+    color: blueviolet;
+    margin-right: 5px;
+}
+
+.logo {
+  height: 50px;
+}
